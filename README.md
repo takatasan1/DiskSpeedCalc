@@ -3,4 +3,5 @@ Windows環境で簡易的にディスクの読み書き性能を測定します�
 
 ## 概要
 全体書込サイズ、チャンクサイズ（1回あたり書込サイズ）、ファイルパス、キャッシュの利用をコマンドライン引数で指定できます。
+
 キャッシュ利用時はFILE_ATTRIBUTE_NORMAL、非利用時はFILE_FLAG_NO_BUFFERINGとFILE_FLAG_WRITE_THROUGHを指定しています。
